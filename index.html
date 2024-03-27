@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naufal</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+        </div><!--Header-->
+        <div id="menu">
+            <ul>
+                <li> <a href="index.php"><span>Beranda</span></a></li>
+                <li> <a href="#"><span>Tentang Kami</span></a></li>
+                <li> <a href="#"><span>Program Studi</span></a>
+                    <ul>
+                        <li> <a href="#"><span>Teknologi Informasi</span></a></li>
+                        <li> <a href="#"><span>Sistem Informasi</span></a></li>
+                        <li> <a href="#"><span>Teknik Penerbangan</span></a></li>
+                    </ul>
+                </li>
+                <li> <a href="#"><span>Jurnal Penelitian</span></a></li>
+                <li> <a href="#"><span>Gallery</span></a></li>
+                <li> <a href="#"><span>Kontak Kami</span></a></li>
+            </ul>
+        </div><!--Menu-->
+        <div id="left">
+            <div id="top-left">
+                <div id="title">
+                    <p>Berita Terbaru</p>
+                </div> <!--title-->
+                <div id="content-tl">
+                </div> <!--content-tl-->
+            </div><!--Top-left-->
+        </div><!--left-->
+        <div id="right">
+            <div id="top-right">
+                <div id="title">
+                </div><!--Title-->
+                <div id="content-tr">
+                </div><!--content-tr-->
+            </div><!--top right-->
+        </div><!--right-->
+        <div id="footer">
+        </div><!--footer-->
+    </div><!---wrap-->
+
+</body>
+
+</html>

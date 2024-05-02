@@ -91,14 +91,15 @@ body{
 
 #left{
     width:250px;
-    height: auto;
+    height: 950px;
     border:1px solid #000;
     margin-top: 5px;
     float: left;
 }
 #top-left{
     width: 250px;
-    height: auto;
+    height: 300px;
+    border: 0px #ffffff;
     margin: 0px auto; 
     float: left;
 }
@@ -120,8 +121,8 @@ body{
 
 #content-tl{
     width: 100%;
-    height: 200px;
-    border: 1px solid #ccc;
+    height: 300px;
+    border: 0px solid #000;
 }
 
 #content-tl ul{
@@ -148,13 +149,15 @@ body{
 #top-midle{
     width: 250px;
     height: auto;
+    border: 1px #000000;
     margin: 0px auto; 
+    margin-top: 40px;
     float: left;
 }
 #content-tm{
     width: 100%;
     height: auto;
-    border: 1px solid #ccc;
+    border: 0px solid #000;
 }
 
 #content-tm ul{
@@ -175,6 +178,27 @@ body{
 #content-tm li a:hover{
     color: #06f;
     text-decoration: underline;
+}
+/*------------------------------------BOTTOM LEFT------------------------------------*/
+#bot-left{
+    width: 250px;
+    height: 250px;
+    border: 2px #000;
+    margin: 0px auto; 
+    margin-top: 10px;
+    float: left;
+}
+#gambar-bl{
+    width: 250px;
+    height: 250px;
+    border: 0px solid #000;
+    float: left;
+}
+
+#bot-left img{
+    width: 220px;
+    height: 250px;
+    margin-left: 20px;
 }
 /*------------------------------------RIGHT BAR------------------------------------*/
 
@@ -204,12 +228,19 @@ body{
     padding: 5px;
 }
 
+#content-tr img{
+    float: left;
+    width: 85px;
+}
+
 /*------------------------------------MIDDLE RIGHT------------------------------------*/
 
-#midle-right{
+#middle-right{
     width: 100%;
     height: auto;
-    margin-top: 10px;
+    margin-top: 2px;
+    justify-content: space-around;
+    display: flex;
 }
 
 #box-mr{
@@ -217,7 +248,7 @@ body{
     height: 250px;
     border: 1px solid #999;
     float: left;
-    margin-right: 7px;
+    margin-right: 8px;
     margin-top: 7px;
 }
 
@@ -226,7 +257,7 @@ body{
     height: 250px;
     border: 1px solid #999;
     float: left;
-    margin-right: 7px;
+    margin-right: 5px;  
     margin-top: 7px;
 }
 
@@ -240,7 +271,8 @@ body{
 }
 
 #box-mr1 img{
-    width: 200px;
+    width: 240px;
+    height: 217px;
 }
 
 #page-boxmr{
@@ -284,8 +316,8 @@ body{
 }
 
 #page-boxmr a img{
-    width: 240px;
-    height: 215px ;
+    width: 220px;
+    height: 217px;
 }
 
 /*------------------------------------BOX RIGHT BOTTOM------------------------------------*/
@@ -298,7 +330,7 @@ body{
 }
 
 #box-rb{
-    width: 435px;
+    width: 370px;
     height: 300px;
     border: 1px solid #999;
     float: left;
@@ -324,8 +356,29 @@ body{
 }
 
 #rb-boximg img{
-    width: 290px;
+    width: 50px;
+    height: 150px;
+}
+
+#page-boxrb img{
+    width: 80px;
+    height: 70px;
+}
+#box-rb1{
+    width: 350px;
     height: 300px;
+    border: 1px solid #999;
+    float: right;
+}
+#page-boxrb1{
+    width: 100%;
+    height: 267px;
+    margin: 0;
+    text-align: justify;
+}
+#page-boxrb1 img{
+    width: 350px;
+    height: 267px;
 }
 /*------------------------------------BANNER------------------------------------*/
 
@@ -345,8 +398,56 @@ body{
 
 #footer{
     width: 1000px;
-    height: 100px;
-    border: 1px solid #000;
-    float: left; 
+    height: auto;
+    border: 0px solid #000;
+    float: right; 
     margin: 5px 0;
+    margin-top: 7px;
+}
+
+#ft-box1{
+    width: 310px;
+    height: 250px;
+    border: 1px solid #999;
+    float: left;
+   margin-right: 30px;
+}
+#page-ftb1{
+    width: 100%;
+    height: 217px;
+    background-color: #f8f8f8;
+    float:left;
+}
+#page-ftb1 ul{
+    margin: 0;
+    padding: 10px 10px  5px 35px;
+    line-height: 27px;
+}
+#ft-box2{
+    width: 310px;
+    height: 250px;
+    border: 1px solid #999;
+    float: left;
+    margin-right: 10px;
+}
+#ft-box3{
+    width: 310px;
+    height: 250px;
+    border: 1px solid #999;
+    float: right;
+}
+
+#cr{
+    width: 1000px;
+    height: auto;
+    border: 1px solid #000;
+    float: right; 
+    margin: 5px 0;
+    margin-top: 5px;    
+}
+#copyright{
+    width: 100%;
+    height: 40px;
+    margin: 5px auto;
+    color: #999;
 }
